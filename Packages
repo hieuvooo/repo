@@ -127,7 +127,7 @@ Name: netKillUI
 
 Package: com.hieuvooo.betternethack
 Name: betternetHack
-Filename: debs/com.hieuvooo.betternethack_3.3.7-1_iphoneos-arm.deb
+Filename: debs/com.hieuvooo.betternethack_3.3.2-1_iphoneos-arm.deb
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
