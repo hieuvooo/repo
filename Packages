@@ -125,7 +125,7 @@ Section: Utilities
 Description: GUI for arp-scan and arp-spoof
 Name: netKillUI
 
-Package: com.hieuvooo.betternethack
+Package: betternethack
 Name: betternetHack
 Filename: debs/com.hieuvooo.betternethack_3.3.2-1_iphoneos-arm.deb
 Depends: mobilesubstrate
