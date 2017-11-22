@@ -125,10 +125,10 @@ Section: Utilities
 Description: GUI for arp-scan and arp-spoof
 Name: netKillUI
 
-Package: hieuvo.ios.tweak.betternethack
+Package: betternethack
 Version: 3.3.7-1
 Architecture: iphoneos-arm
-Filename: debs/hieuvo.ios.tweak.betternethack.deb
+Filename: debs/betternethack.deb
 Size: 4212
 MD5sum: 26D72EF1C73B23F1C61CB3E901511169
 SHA1: 0C69B07F63A4B96E563667879728A5FBF1F1B665
