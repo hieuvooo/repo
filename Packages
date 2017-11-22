@@ -1,8 +1,8 @@
-Package: arp-scan
+Package: com.hieuvooo.arp-scan_1.8.1-1_iphoneos-arm
 Version: 1.8.1-1
 Architecture: iphoneos-arm
 Depends: libpcap
-Filename: debs/arp-scan.deb
+Filename: debs/com.hieuvooo.arp-scan_1.8.1-1_iphoneos-arm.deb
 Size: 283504
 MD5sum: EED8A33FDBAEE8728E4684B3090CD47B
 SHA1: 3A0FF430DEB00ABD0CD9687F128150A5723A0306
