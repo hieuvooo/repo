@@ -124,3 +124,27 @@ SHA256: DA1509706E6E3EE22D639F4C1BD03C7349D26640A263E85D5FE202B4DC717C10
 Section: Utilities
 Description: GUI for arp-scan and arp-spoof
 Name: netKillUI
+
+Package: com.techprohacker.betternethack_3.3.7-1_iphoneos-arm
+Version: 3.3.7-1
+Architecture: iphoneos-arm
+Depends: libpcap
+Filename: debs/com.techprohacker.betternethack_3.3.7-1_iphoneos-arm.deb
+Size: 283504
+MD5sum: 80B72E20CF069C7C858BD55776F439CE
+SHA1: 0C69B07F63A4B96E563667879728A5FBF1F1B665
+SHA256: 56A37D5002144B75F1AE1F3F43F91421088A35CEA8B7E5B5CD0DE84203B2185A
+Section: Tweaks
+Description: Hack Features:
+
+- Unlimited Free Premium
+
+- Several Locations Option
+
+- Faster Connection
+
+- High Quality Support
+
+- No Jailbreak Detection
+Author: Patricktph
+Name: Betternet Premium
