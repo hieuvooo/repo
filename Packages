@@ -1,4 +1,4 @@
-Package: com.hieuvo.arp-scan_1.8.1-1_iphoneos-arm
+Package: com.hieuvooo.arp-scan_1.8.1-1_iphoneos-arm
 Version: 1.8.1-1
 Architecture: iphoneos-arm
 Depends: libpcap
