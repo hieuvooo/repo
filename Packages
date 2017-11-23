@@ -1,138 +1,143 @@
-Package: com.hieuvooo.arp-scan_1.8.1-1_iphoneos-arm
-Version: 1.8.1-1
+Package: com.hieuvooo.dateinstatusbar
 Architecture: iphoneos-arm
-Depends: libpcap
-Filename: debs/arp-scan_1.8.1-1_iphoneos-arm.deb
-Size: 283504
-MD5sum: EED8A33FDBAEE8728E4684B3090CD47B
-SHA1: 3A0FF430DEB00ABD0CD9687F128150A5723A0306
-SHA256: 81B78F4A953758DB9D08768C51DA1F9E4F300C869AEA312532F1A7DE1F4785C0
-Section: Networking
-Description: ARP scanning and fingerprinting tool
- arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3).
-Author: Roy Hills
-Name: Arp Scan
+Version: 0.9.1-2
+Section: Tweaks
+Depends: mobilesubstrate, firmware(>=8.0)
+Filename: debs/com.hieuvooo.dateinstatusbar_0.9.1-2_iphoneos-arm.deb
+Size: 4896
+MD5sum: EDA1E8F6CAB42DEC1456FE926F3BD007
+Description: Adds current date to statusbar 
+Name: Date In Statusbar
+Author: Redpandadev
+
+Package: com.hieuvooo.netKillUI
+Architecture: iphoneos-arm
+Version: 0.2.1-1
+Section: Ultilities
+Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
+Filename: debs/com.hieuvooo.netkillui_0.2.1-1_iphoneos-arm.deb
+Size: 261272
+MD5sum: 24F8677E35EFB0E9A3A4381E7491CEA1
+Description: GUI for arp-scan and arp-spoof.
+ Changelog:
+ 0.2.0:
+ iOS 9 support.
+ 0.1.9-3:
+ iOS 8.3 fix (prerequisite added).
+ 0.1.9:
+ iOS 8.3 fix.
+ 0.1.8:
+ Redo table cells - add multilines
+ Hold cell to rename device
+ Show device vendor if known (database not great atm)
+ 0.1.7:
+ Make indicator icons smaller.
+ 0.1.6:
+ Indicator to show which IPs are being blocked.
+ Tap an IP currently being blocked to unblock it.
+ Kill all button added.
+Name: NetKillUI
+Author: Teggers
 
 Package: dsniff
-Version: 2.4b2-1
 Architecture: iphoneos-arm
+Version: 2.4b2-1
 Conflicts: org.mulliner.dsniff
 Replaces: org.mulliner.dsniff
-Filename: debs/dsniff.deb
-Size: 2110906
-MD5sum: B23ACF3CBAC62C04B15EC2F148D65186
-SHA1: D93E224B67FE7920337FD2A05C6595B77E171D85
-SHA256: 6FB41948D5FD244825023E5E4DB36876E38500D71FBB38B6EB131EA1BEC6BE92
 Section: Networking
+Depends: mobilesubstrate, firmware(>=8.0)
+Filename: debs/dsniff_2.4b2-1_iphoneos-arm.deb
+Size: 2110904
+MD5sum: 006B272CD2499B62BE1D16D01C7507E5
 Description: Dsniff Suite Of Pentesting Tools For iPhone
- dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI.
-Author: Dug Song
+ dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI. 
 Name: Dsniff Suite
+Author: Dug Song
 
-Package: hieuvo.ios.tweak.dateinstatusbar
-Version: 0.9.1-2
+Package: arp-scan
 Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware(>=8.0)
-Filename: debs/hieuvo.ios.tweak.dateinstatusbar.deb
-Size: 4898
-MD5sum: 14EFA884DE9F0FD945E7D794F9911EA1
-SHA1: 41A656B25644E89FBCB948F89750E82B6518F21B
-SHA256: 4BB9CA98B80C535253E744B2E4158FFE325811AE977F83A648891D1E00277563
+Version: 1.8.1-1
+Section: Networking
+Depends: libpcap
+Filename: debs/arp-scan_1.8.1-1_iphoneos-arm.deb
+Size: 283396
+MD5sum: 3576A8C4FE718E103E75318DCC9C12D8
+Description: ARP scanning and fingerprinting tool
+ arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3).
+Name: Arp Scan
+Author: Roy Hills
+
+Package: com.hieuvooo.localiapstore
+Architecture: iphoneos-arm
+Version: 1.4-4
 Section: Tweaks
-Description: Adds the current date to the time area of the statusbar
-Author: Redpandadev
-Name: Date in Statusbar
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/com.hieuvooo.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 70746
+MD5sum: 9E17E3489632CDA2FDB04D377DF0B9D7
+Description: Pwns In-App purchases on iOS 7 and 8. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Name: LocalIAPStore
+Author: Pangu
 
-Package: hieuvo.ios.tweak.gamegem
-Version: 1.1
+Package: com.hieuvooo.iGameCore
 Architecture: iphoneos-arm
-Depends: firmware (>= 6.0)
-Filename: debs/hieuvo.ios.tweak.gamegem.deb
-Size: 1527806
-MD5sum: 9808E8D811DF5AAC9E8A488607953068
-SHA1: 7B0E6D74B8378DF89244613F109EF3B491C3E3C3
-SHA256: 89C99F6E6E2EA395A8AD909E3AA5AB471428A88DE574B675F48A7C7FCB216E7E
-Section: Utilities
-Description: Cheat engine for iOS. Change variable values.
-Author: Aidoo.TK
-Name: GameGem
-
-Package: hieuvo.ios.tweak.gameplayer
-Version: 3.4
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware(>=8.0)
-Filename: debs/hieuvo.ios.tweak.gameplayer.deb
-Size: 1502824
-MD5sum: 8BA96A2B92964C7F540FFD5D23EF8B49
-SHA1: 48EA5CD41A5A190E27C97B3F3993FF6DD43C3F89
-SHA256: 274AF3D4A2E139AD6D86931C407694CC7652C91C0AE13BB5A6B371A8A8B86A90
-Section: Utilities
-Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, Money and so on
-Author: Maocai Luo
-Name: GamePlayer
-
-Package: hieuvo.ios.tweak.iGameCore
-Version: 7.0.1-4
-Architecture: iphoneos-arm
-Filename: debs/hieuvo.ios.tweak.iGameCore.deb
-Size: 652536
-MD5sum: F9208136AE960A69338B4AC23EB2EFA7
-SHA1: 67D497F593A768C6B7BFEE477B73044B5258AADD
-SHA256: 5AF9E32DDC75C2A6B33D21C2DECE76BC870FDB61664F77DC27CBE61538EC8109
+Version: 1.0
 Section: Development
+Filename: debs/com.hieuvooo.iGameCore_1.0_iphoneos-arm.deb
+Size: 911850
+MD5sum: F4FBEBF53A49E8EAFB4DAC31FF2E728D
 Description: Core for iGameGuardian
-Author: Nkod
 Name: iGameCore
+Author: Hieuvooo
 
-Package: hieuvo.ios.tweak.iGameguardian.deb
-Version: 7.0.1-4
+Package: com.hieuvooo.iGameGuardian
 Architecture: iphoneos-arm
-Depends: hieuvo.ios.tweak.iGameCore
-Filename: debs/hieuvo.ios.tweak.iGameguardian.deb
-Size: 652536
-MD5sum: BABD0603EBFD9D0EC20D12287D9866B6
-SHA1: 760FC430645CC60026811C0055E37D61DB31792B
-SHA256: E1713D8DA2ADCFF887D534477B6647A5A53AA8B88DA3D28063E3851A720E68E2
-Section: Utilities
-Description: “iGameGuardian” is a game hack/alteration tool for iOS. With it, you can modify money, HP, SP, and much more. You can enjoy the fun part of a game without suffering from its unseasonable part.
-Author: Nkod
+Version: 7.0.2r
+Section: Ultilities
+Depends: com.hieuvooo.iGameCore
+Filename: debs/com.hieuvooo.iGameGuardian_7.0.2r_iphoneos-arm.deb
+Size: 652318
+MD5sum: 062724F92191947F61BC3DAABB5A85A3
+Description: iGameGuardian is a game cheating engine for iOS 6.x/7.x/8.x/9.x/10.x/11.x
 Name: iGameGuardian
+Author: Aqua Wu
 
-Package: hieuvo.ios.tweak.localiapstore
-Version: 1.4-2
+Package: com.hieuvooo.gameplayer
 Architecture: iphoneos-arm
-Depends: hieuvo.ios.tweak.iGameCore
-Filename: debs/hieuvo.ios.tweak.localiapstore.deb
-Size: 70998
-MD5sum: 4D1FA64D36EAA75522EFEA35334D7EBF
-SHA1: B920EE5796D2E222D0F2988F05321CAA5E66C1E0
-SHA256: 8F55FD1A51575FD42A1957A3BF3083BBA7F8BB5F0A3CACC0D2B9F3A34960C727
+Version: 3.4
+Section: Ultilities
+Depends: firmware (>= 6.0), mobilesubstrate
+Filename: debs/com.hieuvooo.gameplayer_3.4_iphoneos-arm.deb
+Size: 1502832
+MD5sum: 55ACE54FB00CF2F059D17D16FD29522A
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x/7.x/8.x/9.x/10.x/11.x are supported.
+Name: GamePlayer
+Author: Maocai Luo
+
+Package: com.hieuvooo.gamegem
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Ultilities
+Depends: firmware (>= 6.0)
+Filename: debs/com.hieuvooo.gamegem_1.1_iphoneos-arm.deb
+Size: 2237692
+MD5sum: 6673840449E2CABD98CB1413E538DB78
+Description: Cheat engine for iOS. Change variable values.
+Name: GameGem
+Author: Aidoo.TK
+
+Package: com.hieuvooo.betternethack
+Architecture: iphoneos-arm
+Version: 3.3.7-1
 Section: Tweaks
-Description: In-App Purchases bypass
-Author: Anondev
-Name: LocallAPStore
-
-Package: hieuvo.ios.tweak.netKillUI
-Version: 0.2.1-1
-Architecture: iphoneos-arm
-Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: debs/hieuvo.ios.tweak.netKillUI.deb
-Size: 264274
-MD5sum: C637E3943D501515BF672D5E6ACC3AF1
-SHA1: 08CF7A84AC68D83240984AFE666F21E2AD529965
-SHA256: DA1509706E6E3EE22D639F4C1BD03C7349D26640A263E85D5FE202B4DC717C10
-Section: Utilities
-Description: GUI for arp-scan and arp-spoof
-Name: netKillUI
-
-Package: betternethack
-Name: betternetHack
-Filename: debs/com.hieuvooo.betternethack_3.3.2-1_iphoneos-arm.deb
 Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: techprohacker
-Author: techprohacker
-Section: Tweaks
-Version: 3.3.2-1
-Installed-Size: 88
+Filename: debs/com.hieuvooo.betternethack_3.3.7-1_iphoneos-arm.deb
+Size: 4260
+MD5sum: 4AF83DECBCFD1E35AA4E76B17A17D4F0
+Description: Unlimited Free Premium
+ Several Locations Option
+ Faster Connection
+ High Quality Support
+ No Jailbreak Detection
+Name: Betternet Premium
+Author: Techprohacker
