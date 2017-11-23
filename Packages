@@ -13,7 +13,7 @@ Author: Redpandadev
 Package: com.hieuvooo.netKillUI
 Architecture: iphoneos-arm
 Version: 0.2.1-1
-Section: Ultilities
+Section: Utilities
 Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
 Filename: debs/com.hieuvooo.netkillui_0.2.1-1_iphoneos-arm.deb
 Size: 261272
@@ -93,7 +93,7 @@ Author: Hieuvooo
 Package: com.hieuvooo.iGameGuardian
 Architecture: iphoneos-arm
 Version: 7.0.2r
-Section: Ultilities
+Section: Utilities
 Depends: com.hieuvooo.iGameCore
 Filename: debs/com.hieuvooo.iGameGuardian_7.0.2r_iphoneos-arm.deb
 Size: 652318
@@ -105,7 +105,7 @@ Author: Aqua Wu
 Package: com.hieuvooo.gameplayer
 Architecture: iphoneos-arm
 Version: 3.4
-Section: Ultilities
+Section: Utilities
 Depends: firmware (>= 6.0), mobilesubstrate
 Filename: debs/com.hieuvooo.gameplayer_3.4_iphoneos-arm.deb
 Size: 1502832
@@ -117,7 +117,7 @@ Author: Maocai Luo
 Package: com.hieuvooo.gamegem
 Architecture: iphoneos-arm
 Version: 1.1
-Section: Ultilities
+Section: Utilities
 Depends: firmware (>= 6.0)
 Filename: debs/com.hieuvooo.gamegem_1.1_iphoneos-arm.deb
 Size: 2237692
