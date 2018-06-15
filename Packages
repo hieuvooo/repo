@@ -1,23 +1,228 @@
-Package: com.hieuvooo.dateinstatusbar
+Package: applebetas.ios.tweak.cleannotifications10
+Version: 1.0.1-1
 Architecture: iphoneos-arm
-Version: 0.9.1-2
+Depends: mobilesubstrate, firmware (>= 10.0)
+Maintainer: AppleBetas
+Installed-Size: 120
+Filename: deb_files/applebetas.ios.tweak.cleannotifications10_1.0.1-1_iphoneos-arm.deb
+Size: 5058
+MD5sum: 0b9b4ed1c7b58ce739c515b6d3d66010
+SHA1: 07dc1450028068b95808a030c73dd0a5d088c4fb
+SHA256: 322d28615503db4a9a50ab65805344a1938a4b3479d984b0151b8a966bb0047e
 Section: Tweaks
-Depends: mobilesubstrate, firmware(>=8.0)
-Filename: debs/com.hieuvooo.dateinstatusbar_0.9.1-2_iphoneos-arm.deb
-Size: 4896
-MD5sum: EDA1E8F6CAB42DEC1456FE926F3BD007
-Description: Adds current date to statusbar 
-Name: Date In Statusbar
-Author: Redpandadev
+Description: Give notifications and widgets a cleaner look.
+Author: AppleBetas
+Name: CleanNotifications10
 
-Package: com.hieuvooo.netKillUI
+Package: applebetas.ios.tweak.translucentmessages
+Version: 1.0.2
 Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Maintainer: AppleBetas
+Installed-Size: 356
+Filename: deb_files/applebetas.ios.tweak.translucentmessages_1.0.2_iphoneos-arm.deb
+Size: 74704
+MD5sum: 309a76fa750a2c2aa272660923934ebb
+SHA1: 423cfd29af861a5a1c3112eeae3d3a802c761e92
+SHA256: 2027029390d075d9b71820f45990449bb766c10292e5678eeace460005ec8cf3
+Section: Tweaks
+Description: Adds a beautiful blurred effect to your messages app and more, letting you see your wallpaper through them.
+Author: AppleBetas
+Name: TranslucentMessages
+
+Package: arp-scan
+Version: 1.8.1-1
+Architecture: iphoneos-arm
+Maintainer: Trcx <trcx528@gmail.com>
+Depends: libpcap
+Filename: deb_files/arp-scan.deb
+Size: 283502
+MD5sum: 9c084377cdcce84f54e6f3fa73bbb817
+SHA1: 8556be2a6cdd27c8d98a7d03d97303424c512051
+SHA256: cad8b1ce0a0f60375501fb60258d0c340587dc6009cd56db585d64a0faedf6cf
+Section: Hacktools
+Description: ARP scanning and fingerprinting tool arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3).
+Tag: role::hacker
+Author: Roy Hills <Roy.Hills@nta-monitor.com>
+Name: Arp Scan
+
+Package: com.kingpuffdaddi.boostedwifi
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 116
+Filename: deb_files/boostedwifi_1.0.deb
+Size: 6006
+MD5sum: d474153845ce907fc8a8ca55d419bed0
+SHA1: cec88ead7e520438adfd7c7e6b5acd2d7af5dfee
+SHA256: 8fa2e27d43b66e26708d644760cb8ad462444521c6a9e9ffc95410f06b1e8d38
+Section: Tweaks
+Description: shows all networks and signal level(RSSI)
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Name: BoostedWifi
+
+Package: com.auxilium.littlex
+Version: 2.0-1+debug
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Shady
+Installed-Size: 348
+Filename: deb_files/com.auxilium.littlex_2.0-1debug_iphoneos-arm.deb
+Size: 39738
+MD5sum: 39d56652ec3beca791772a19ad103e7b
+SHA1: 992ff84a26ed6c2f778019a57b0fa72f1b44e394
+SHA256: 4c23f243bde50455185443e99808cbee437dfeeed2f9c270d4d42ddc83c32e05
+Section: Tweaks
+Description: iPhoneX Features for Non-X Devices on iOS 11
+Author: Shady
+Name: LittleX
+
+Package: com.ioscreatix.peek-a-boo
+Version: 11.0.3
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: iOS Creatix
+Installed-Size: 292
+Filename: deb_files/com.ioscreatix.peek-a-boo_11.0.3_iphoneos-arm.deb
+Size: 44424
+MD5sum: 09da461af075f02bf31681f543c8ea45
+SHA1: 2597022a0485b1f01bff10f180800d2bb4e10f48
+SHA256: 367f88a850682ca1ee7f4103c483f1cac63cdab7b945dc2a8dbb9a7fea61e290
+Section: Tweaks
+Description: 3D Touch on Non-3D-Touch Devices
+Author: iOS Creatix
+Name: Peek-a-Boo
+
+Package: com.ps.amber
+Version: 0.0.2.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch
+Maintainer: PoomSmart
+Installed-Size: 404
+Filename: deb_files/com.ps.amber_0.0.2.1_iphoneos-arm.deb
+Size: 9404
+MD5sum: c7f6d9405135f21b402f63b9e21b6fef
+SHA1: 4464d2591e7c8b00cbe7f6f1483110e1696e9d5a
+SHA256: dc23307fd5a7fd7c505c7e915d0fd88dae18453fc7fb12bf6030920117e1f203
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Name: Amber
+
+Package: com.sticktron.darkmessages
+Version: 1.2.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 684
+Filename: deb_files/com.sticktron.darkmessages_1.2.0_iphoneos-arm.deb
+Size: 80646
+MD5sum: 737dd1220091d75d278c0ce88b359745
+SHA1: 9b3fed1ddd7680480bbd4a162e46a119a262b959
+SHA256: 0aa08e58fb280d68695fefd086fcbfb2e4f9a9d5723ef6497cc7adbb5993ac6a
+Section: Tweaks
+Description: Dark theme for Messages app!
+Author: Sticktron <sticktron@hotmail.com>
+Name: DarkMessages (iOS 10)
+Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
+
+Package: com.tonyk7.0vigilate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: Tonyk7
+Installed-Size: 72
+Filename: deb_files/com.tonyk7.0vigilate_0.0.1_iphoneos-arm.deb
+Size: 2252
+MD5sum: 0cb4f7e68e2d215935aa6ecaeaaf9c68
+SHA1: e4e071016b956317d9ff6c3fed94142344a13952
+SHA256: 752573aa6ff72c69ea15c64d107502822b7e3719af8929bafc523777a4c979f0
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Tonyk7
+Name: 0vigilate
+
+Package: com.vitataf.homegesture
+Version: 1.4
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Maintainer: MidnightChips
+Installed-Size: 120
+Filename: deb_files/com.vitataf.homegesture_1.4_iphoneos-arm.deb
+Size: 4182
+MD5sum: b3c0eea736bbf09d29bbde7e946f02f7
+SHA1: f6bd086b82847b3a01bc07610fbddbaab06e4b10
+SHA256: a6ae77d26f0e18ab44f372880af7df9b1ed9aeccc36eca94163ed4758910df5f
+Section: Tweaks
+Description: Enable iPhone X home gesture on other devices.
+Author: VitaTaf
+Name: HomeGesture
+
+Package: jp.r-plus.deletecut
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Replaces: jp.r-plus.shiftdelword
+Conflicts: jp.r-plus.shiftdelword
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 344
+Filename: deb_files/deletecut_0.1-1.deb
+Size: 56324
+MD5sum: b7e0700f873894c4a80ffa6e8721d12e
+SHA1: 5b24968719d84baa0908a80b2ab6e322a99280c5
+SHA256: d08b4a6079c3f30bbde63c2ce362f348b6791b92ee4204d5118472e6929713b6
+Section: Tweaks
+Description: Delete word mode while holding shift.
+Author: r_plus <anasthasia.r+doublecut@gmail.com>
+Name: DeleteCut
+Icon: file:///Library/PreferenceBundles/DeleteCutSettings.bundle/DeleteCut@2x.png
+
+Package: com.xcxiao.dockxi
+Version: 1.1.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 245
+Filename: deb_files/dockxi_1.1.1.deb
+Size: 17784
+MD5sum: 09de159e77884cde9c2e7be7279b8ac3
+SHA1: 54a27908fcde5c746fb225f3759c56e44261be7c
+SHA256: dccb71f51ce1e68d53e3d5144470268d5a803ec1e9dff3c4c816e8f129edb046
+Section: Tweaks
+Description: iOS 11 Dock Style For iOS Devices.
+Author: XCXiao <958169971@qq.com>
+Name: DockXI For iOS8/9/10/11
+
+Package: dsniff
+Version: 2.4b2-1
+Architecture: iphoneos-arm
+Maintainer: Trcx <trcx528@gmail.com>
+Conflicts: org.mulliner.dsniff
+Replaces: org.mulliner.dsniff
+Filename: deb_files/dsniff.deb
+Size: 2110904
+MD5sum: 9b7c8d02c2bc3fd25317e447b95e7df8
+SHA1: 76391b226237a5f7493c1cf9d3312d6b011fee53
+SHA256: 06fdbc3984b1f92dbbdec1d0c3e81721a6758684aafdfb058d417479b1651d15
+Section: Hacktools
+Description: Dsniff Suite Of Pentesting Tools For iPhone dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI.
+Tag: role:: hacker
+Author: Dug Song <dugsong@monkey.org>
+Name: Dsniff Suite
+
+Package: eu.teggers.netKillUI
 Version: 0.2.1-1
-Section: Utilities
+Architecture: iphoneos-arm
+Maintainer: Teggers
+Installed-Size: 684
 Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: debs/com.hieuvooo.netkillui_0.2.1-1_iphoneos-arm.deb
+Filename: deb_files/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
 Size: 261272
-MD5sum: 24F8677E35EFB0E9A3A4381E7491CEA1
+MD5sum: b311ce42b739b6d18be8b8db74768159
+SHA1: 4f5a8ef0b01298614ad60958c7306623d62ed3bc
+SHA256: 08a64289ca947faf35f4067318be1853b85d6a7c9f5858b687750601aa03b549
+Section: Tweaks
 Description: GUI for arp-scan and arp-spoof.
  Changelog:
  0.2.0:
@@ -36,108 +241,156 @@ Description: GUI for arp-scan and arp-spoof.
  Indicator to show which IPs are being blocked.
  Tap an IP currently being blocked to unblock it.
  Kill all button added.
-Name: NetKillUI
 Author: Teggers
+Name: netKillUIbeta
 
-Package: dsniff
+Package: com.ziph0n.hapticfeedback
+Version: 1.2-1
 Architecture: iphoneos-arm
-Version: 2.4b2-1
-Conflicts: org.mulliner.dsniff
-Replaces: org.mulliner.dsniff
-Section: Networking
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, ws.hbang.common
+Conflicts: com.ziph0n.hapticlock
+Replaces: com.ziph0n.hapticlock
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 351
+Filename: deb_files/hapticfeedback_1.2-1.deb
+Size: 32752
+MD5sum: ff5167b3497a34b783b93885bf6e621f
+SHA1: 73ca5cba975c65080f05d44f34633cdfa08a422b
+SHA256: e7d69c3e1843a6b7d39261af088d4a3f5c8b558eaeec78aa83398bb1f11e9abd
+Section: Tweaks
+Description: Get an haptic feedback when pushing buttons!
+Author: Ziph0n <ziph0ntweak@gmail.com>
+Name: HapticFeedback
+Icon: file:///PreferenceBundles/HapticFeedback.bundle/icon@2x.png
+
+Package: com.atwiiks.horseshoe
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 947
+Filename: deb_files/horseshoe_2.1.1-1.deb
+Size: 250112
+MD5sum: 1518eacf816c4be1b22ffee525cde63a
+SHA1: 0f3cca79c8871db3c596311813c1896090f41c6e
+SHA256: 8a0cd4c9972209c94c087feb06555231a57bb22b3ce867a7dede266333e8e326
+Section: Tweaks
+Description: A better iOS 10 Control Center!
+Author: ATWiiks <cardflourish101@gmail.com>
+Name: Horseshoe
+
+Package: info.rpdev.dateinstatusbar
+Version: 0.9.1-2
+Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware(>=8.0)
-Filename: debs/dsniff_2.4b2-1_iphoneos-arm.deb
-Size: 2110904
-MD5sum: 006B272CD2499B62BE1D16D01C7507E5
-Description: Dsniff Suite Of Pentesting Tools For iPhone
- dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI. 
-Name: Dsniff Suite
-Author: Dug Song
-
-Package: arp-scan
-Architecture: iphoneos-arm
-Version: 1.8.1-1
-Section: Networking
-Depends: libpcap
-Filename: debs/arp-scan_1.8.1-1_iphoneos-arm.deb
-Size: 283396
-MD5sum: 3576A8C4FE718E103E75318DCC9C12D8
-Description: ARP scanning and fingerprinting tool
- arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3).
-Name: Arp Scan
-Author: Roy Hills
-
-Package: com.hieuvooo.localiapstore
-Architecture: iphoneos-arm
-Version: 1.4-4
+Maintainer: Redpandadev
+Installed-Size: 136
+Filename: deb_files/info.rpdev.dateinstatusbar_0.9.1-2_iphoneos-arm.deb
+Size: 4896
+MD5sum: b4db63e19d2effe6e130e5e6bd92f8df
+SHA1: e9e1989447b1b33c5d54be005f634fca90b10189
+SHA256: 31140158828d7551c6b7299aef6c23f372dc27cab6284f8b0de568428b4b0120
 Section: Tweaks
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Filename: debs/com.hieuvooo.localiapstore_1.4-4_iphoneos-arm.deb
-Size: 70746
-MD5sum: 9E17E3489632CDA2FDB04D377DF0B9D7
-Description: Pwns In-App purchases on iOS 7 and 8. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Name: LocalIAPStore
-Author: Pangu
+Description: Adds current date to statusbar
+Author: Redpandadev
+Name: Date In Statusbar
 
-Package: com.hieuvooo.iGameCore
+Package: info.rpdev.nocarrier
+Version: 0.9-2
 Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware(>=8.0)
+Maintainer: Redpandadev
+Installed-Size: 136
+Filename: deb_files/info.rpdev.nocarrier_0.9-2_iphoneos-arm.deb
+Size: 3838
+MD5sum: e38eb50d69fa0e050980f023d97f8617
+SHA1: d29cfcea50e8eecdad01e84e8856f30f9d78371a
+SHA256: 85d48d928f5e7f287e454c18503b9f82bcbf9cc22a52b08e5569f7afba1aa1e6
+Section: Tweaks
+Description: Hides carrier text in the statusbar
+Author: Redpandadev
+Name: NoCarrier
+
+Package: me.qusic.kaze
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, applist
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 354
+Filename: deb_files/kaze_1.0.1.deb
+Size: 64354
+MD5sum: 38e53ddcdb470f95d57037523d7dcd42
+SHA1: 5c85a04de3eb506aab616772986e95e969602de4
+SHA256: a349996c502c6bc79cd10dd3ddc3ac2c14e7a7ae64a7e5d7eecfb5c8da1b4224
+Section: Tweaks
+Description: Quick Switcher and Hot Corners
+Author: Qusic <hi@qusic.me>
+Name: Kaze
+Icon: file:///Library/PreferenceBundles/KazePreferences.bundle/Kaze@2x.png
+
+Package: com.ioscreatix.maize
+Version: 1.0.5-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch
+Conflicts: org.thebigboss.vigor, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Replaces: com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 5221
+Filename: deb_files/maize_1.0.5-1.deb
+Size: 571574
+MD5sum: 3973791fabda26936707bc186930702e
+SHA1: 8800a87ccbdeaa150040ccb3518843e5f6858cc8
+SHA256: 2dc9b32c8b450f619e4030b55c1c2b24d8737ef07c492767264d4b8aea4a7ba8
+Section: Tweaks
+Description: The iOS 11 Control Center on iOS 10
+Author: Creatix <ioscreatix@gmail.com>
+Name: Maize (iOS 10)
+Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
+
+Package: me.alfhaily.adblockforyoutube
+Version: 1.0.7
+Architecture: iphoneos-arm
+Depends: firmware (>= 8.0)
+Maintainer: Majd Alfhaily <freemanrepo@me.com>
+Filename: deb_files/me.alfhaily.adblockforyoutube_1.0.7_iphoneos-arm.deb
+Size: 46578
+MD5sum: 0da9477fed37688be32978aa98ef452c
+SHA1: 1b9ebdf775f71a57f13723963150c91a493886f6
+SHA256: 417a3bc157cdf4584c0f053583f1b11cb6380f8fccb8821303868ffe38d1236d
+Section: Tweaks
+Description: Block YouTube Ads and Video Ads
+Author: Majd Alfhaily
+Name: AdBlock for YouTube
+
+Package: com.alcovedevteam.photosize
 Version: 1.0
-Section: Development
-Filename: debs/com.hieuvooo.iGameCore_1.0_iphoneos-arm.deb
-Size: 911850
-MD5sum: F4FBEBF53A49E8EAFB4DAC31FF2E728D
-Description: Core for iGameGuardian
-Name: iGameCore
-Author: Hieuvooo
-
-Package: com.hieuvooo.iGameGuardian
 Architecture: iphoneos-arm
-Version: 7.0.2r
-Section: Utilities
-Depends: com.hieuvooo.iGameCore
-Filename: debs/com.hieuvooo.iGameGuardian_7.0.2r_iphoneos-arm.deb
-Size: 652318
-MD5sum: 062724F92191947F61BC3DAABB5A85A3
-Description: iGameGuardian is a game cheating engine for iOS 6.x/7.x/8.x/9.x/10.x/11.x
-Name: iGameGuardian
-Author: Aqua Wu
-
-Package: com.hieuvooo.gameplayer
-Architecture: iphoneos-arm
-Version: 3.4
-Section: Utilities
-Depends: firmware (>= 6.0), mobilesubstrate
-Filename: debs/com.hieuvooo.gameplayer_3.4_iphoneos-arm.deb
-Size: 1502832
-MD5sum: 55ACE54FB00CF2F059D17D16FD29522A
-Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x/7.x/8.x/9.x/10.x/11.x are supported.
-Name: GamePlayer
-Author: Maocai Luo
-
-Package: com.hieuvooo.gamegem
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Utilities
-Depends: firmware (>= 6.0)
-Filename: debs/com.hieuvooo.gamegem_1.1_iphoneos-arm.deb
-Size: 2237692
-MD5sum: 6673840449E2CABD98CB1413E538DB78
-Description: Cheat engine for iOS. Change variable values.
-Name: GameGem
-Author: Aidoo.TK
-
-Package: com.hieuvooo.betternethack
-Architecture: iphoneos-arm
-Version: 3.3.7-1
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 187
+Filename: deb_files/photosize_1.0.deb
+Size: 38822
+MD5sum: 4a80c5109bb6df1a7ac1c5718b1f301e
+SHA1: b91bd3289a224398a0161edd22d6492629de9cb2
+SHA256: 8c88fd33e4b4849a62cf8fd8861518df3a6c8e2eee54aedaf4944b81739b4eb5
 Section: Tweaks
-Depends: mobilesubstrate
-Filename: debs/com.hieuvooo.betternethack_3.3.7-1_iphoneos-arm.deb
-Size: 4260
-MD5sum: 4AF83DECBCFD1E35AA4E76B17A17D4F0
-Description: Unlimited Free Premium
- Several Locations Option
- Faster Connection
- High Quality Support
- No Jailbreak Detection
-Name: Betternet Premium
-Author: Techprohacker
+Description: Displays size of selected photos & videos
+Author: Sinister Industries <SinisterIndustriesDev@gmail.com>
+Name: PhotoSize
+Icon: file:///Library/PreferenceBundles/PhotoSize.bundle/icon@2x.png
+
+Package: com.ruler225.videohud
+Version: 2.2
+Architecture: iphoneos-arm
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 124
+Filename: deb_files/videohud_2.2.deb
+Size: 13462
+MD5sum: 19ef2c6b49aaabc2133d8fc95a266ee6
+SHA1: c64c2d0d0639890c1c538acdd68d6994915e0073
+SHA256: a36e300777c769f024a69bdb5383b59d27a164f08be31dac1bf98872b2c41fa1
+Section: Tweaks
+Description: iOS 11 video player HUD used systemwide!
+Author: Youssef Mikhail <ymiscool@hotmail.com>
+Name: VideoHUD
